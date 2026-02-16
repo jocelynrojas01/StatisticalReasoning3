@@ -30,7 +30,7 @@ Let's start by reading in the relevant packages
 
 ```{r}
 # Run this to install some data packages
-# devtools::install_github("rmcelreath/rethinking")
+devtools::install_github("rmcelreath/rethinking")
 library(rethinking)
 
 library(brms) # for statistics
